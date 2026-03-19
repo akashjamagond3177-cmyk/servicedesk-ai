@@ -40,7 +40,7 @@ async def startup_event():
     Same as your company's startup_event()
     """
     global retriever
-    print("🚀 Starting RAG Service...")
+    print("Starting RAG Service...")
     
     try:
         # Step 1: Create collection if not exists
@@ -49,12 +49,12 @@ async def startup_event():
         # Step 2: Initialize retriever
         retriever = get_retriever()
         
-        print("✅ ChromaDB connected successfully!")
-        print("✅ Retriever initialized!")
+        print("ChromaDB connected successfully!")
+        print("Retriever initialized!")
         
     except Exception as e:
-        print(f"❌ ChromaDB connection failed: {e}")
-        print("⚠️ Service starting without retriever...")
+        print(f"ChromaDB connection failed: {e}")
+        print("Service starting without retriever...")
         retriever = None
         
 # ─── Pydantic Models ────────────────────────────────────────────
