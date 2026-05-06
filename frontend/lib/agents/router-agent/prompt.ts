@@ -1,7 +1,7 @@
 /**
  * Router Agent — Classification Prompt
  * 
- * Same as your company's router-agent/prompt.ts
+ * Same as  company's router-agent/prompt.ts
  * Tells LLM how to classify user messages.
  */
 
