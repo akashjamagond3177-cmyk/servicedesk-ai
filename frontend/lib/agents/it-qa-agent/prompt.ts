@@ -1,7 +1,7 @@
 /**
  * IT QA Agent — System Prompt
  * 
- * Same concept as your company's it-qa-agent/prompt.ts
+ * Same concept as  company's it-qa-agent/prompt.ts
  * Instructions that tell LLM how to behave.
  */
 
