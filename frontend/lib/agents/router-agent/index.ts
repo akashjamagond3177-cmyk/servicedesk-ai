@@ -1,7 +1,7 @@
 /**
  * Router Agent — Intent Classification
  * 
- * Same as your company's router-agent/index.ts
+ * Same as  company's router-agent/index.ts
  * Classifies each user message into correct agent.
  * 
  * Flow:
