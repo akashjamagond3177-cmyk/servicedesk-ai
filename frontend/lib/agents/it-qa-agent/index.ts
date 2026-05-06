@@ -1,7 +1,7 @@
 /**
  * IT QA Agent
  * 
- * Same concept as your company's it-qa-agent/index.ts
+ * it-qa-agent/index.ts
  * Handles IT support questions using RAG.
  * 
  * Flow:
